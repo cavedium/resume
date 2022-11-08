@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Alexander Shport - own resume</title>
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/preloader.css">
+	<link rel="shortcut icon" href="./img/icon.png" type="image/png">
+	<script src="./scripts/main.js"></script>
+	<script src="./scripts/preloader.js"></script>
+</head>
+
+<body>
+	<div class="preloader">
+		<svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+			<path fill="currentColor"
+				d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+			</path>
+		</svg>
+	</div>
+	<!-- Шапка сайта -->
+	<header class="header">
+		<div class="wrapper">
+			<nav class="header-nav">
+				<ul class="nav-menu list">
+					<li class="nav-menu-item">
+						<a href="#" class="nav-menu-link link" id="home">Home</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#aboutme2" class="nav-menu-link link" id="aboutme1">About me</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#skills2" class="nav-menu-link link" id="skills1">Tech Skills</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#contacts2" class="nav-menu-link link" id="contacts1">Contacts</a>
+					</li>
+				</ul>
+				<hr class="line">
+			</nav>
+		</div>
+	</header>
+	<!-- Основная часть сайта -->
+	<main>
+		<!-- Hero -->
+		<section class="hero">
+			<div class="wrapper">
+				<p class="hero-lang"> <button class="lang-btn" onclick="ru()">RU</button> | <button class="lang-btn"
+						onclick="eng()">ENG</button></p>
+				<ul class=" hero-menu list">
+					<li class="hero-menu-item">
+						<h1 class="hero-title"><span id="name">Alexander</span><br> <span id="surname">Shport</span>
+						</h1>
+					</li>
+					<li class="hero-menu-item">
+						<p class="hero-text"><span id="shortAbout1">Student</span> <br><span id="shortAbout2">18 years
+								old, Odessa</span></p>
+					</li>
+				</ul>
+				<img class="hero-img" src="./img/hero.jpg" alt="Бородатый мужчина держащий кепку" width="550"
+					height="387" />
+			</div>
+		</section>
+
+		<!-- About me -->
+		<section class="about-me">
+			<div class="wrapper">
+				<h2 class="about-me-title" id="aboutme2">About me</h2>
+				<ul class="about-me-list list">
+					<li class="about-me-item" id="aboutMeText1">Hi, I'm Alexander - student from Odessa. <br>I'm
+						interested in programming
+						and
+						everything connected with
+						it.</li>
+					<li class="about-me-item" id="aboutMeText2">I'm a cadet of ISZZI KPI.
+					</li>
+					<li class="about-me-item" id="aboutMeText3">Ready to meet and implement different projects <br>with
+						wonderful people.
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section class="skills">
+			<div class="wrapper">
+				<h2 class="skills-title" id="skills2">Tech Skills</h2>
+				<p class="skills-text" id="skillsText">I write in programming languages ​​like</p>
+				<ul class="skills-list list">
+					<li class="skills-item">
+						<img class="skills-img" src="./img/c++.svg" alt="C++" width="89.07" height="88.41">
+						<p class="skills-item-text">C++</p>
+						<ul class="stars-list list">
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+						</ul>
+					</li>
+					<li class="skills-item">
+						<img class="skills-img" src="./img/java.svg" alt="Java" width="89.07" height="88.41">
+						<p class="skills-item-text">Java</p>
+						<ul class="stars-list list">
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+						</ul>
+					</li>
+					<li class="skills-item">
+						<img class="skills-img" src="./img/javascript.svg" alt="JavaScript" width="89.07"
+							height="88.41">
+						<p class="skills-item-text">JavaScript</p>
+						<ul class="stars-list list">
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+						</ul>
+					</li>
+					<li class="skills-item python">
+						<img class="skills-img" src="./img/python.svg" alt="Python" width="89.07" height="88.41">
+						<p class="skills-item-text python">Python</p>
+						<ul class="stars-list list">
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/black_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img class="stars-img" src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+							<li class="stars-list-item">
+								<img src="./img/grey_star.svg" alt="star" width="26px" height="26px">
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<!-- Подвал сайта -->
+	<footer class="footer">
+		<div class="wrapper">
+			<h2 class="footer-title" id="contacts2">Contacts</h2>
+			<p class="footer-text"><span id="contactText1">Want to know more or just chat?</span><br> <span
+					id="contactText2">You are welcome!</span></p>
+			<a class="footer-btn link" href="#" id="btnText">Send message</a>
+			<ul class="footer-list list">
+				<li class="footer-item">
+					<a class="footer-item-link" href="#">
+						<img class="footer-link-img" src="./img/linkedln.svg" alt="linkedln" width="40.17"
+							height="40.06">
+					</a>
+				</li>
+				<li class="footer-item">
+					<a class="footer-item-link" href="#">
+						<img class="footer-link-img" src="./img/instagram.svg" alt="instagram" width="40.17"
+							height="40.06">
+					</a>
+				</li>
+				<li class="footer-item">
+					<a class="footer-item-link" href="#">
+						<img class="footer-link-img" src="./img/behance.svg" alt="behance" width="40.17" height="40.06">
+					</a>
+				</li>
+				<li class="footer-item">
+					<a class="footer-item-link" href="#">
+						<img class="footer-link-img" src="./img/dribble.svg" alt="dribble" width="40.17" height="40.06">
+					</a>
+				</li>
+			</ul>
+			<p class="footer-info">Like me on <br>Linkedln, Instagram, Behance, Dribble</p>
+		</div>
+	</footer>
+</body>
+
+</html>
